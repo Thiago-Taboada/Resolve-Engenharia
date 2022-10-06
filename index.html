@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/9ded622906.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Resolve Energia</title>
 </head>
 <body>
@@ -28,7 +31,7 @@
                 
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                 
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/resolvesolar/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
 
         </div>
@@ -69,7 +72,7 @@
             <div class="card2">
                 <img src="images/02-1.jpg" alt="Engenharia">
                 <h3 class="cards-text">Engenharia</h3>
-                <a href="#">Solicitar Orçamento</a>
+                <a href="https://wa.me/5582996058218" target="_blank">Solicitar Orçamento</a>
             </div>
             <div class="card3">
                 <img src="images/03-1.jpg" alt="Consultoria">
@@ -114,10 +117,44 @@
         </div>
     </section>
     <!-- 
+        * * Conteudo "Galeria"! -------------------------
+    -->
+    <section class="galeria">
+            <h2 class="title">Galeria</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="images/dji_export_1653056983005-1024x576.jpg" alt="Slide 1"></div>
+              <div class="swiper-slide"><img src="images/dji_export_1653056989978-1024x576.jpg" alt="Slide 2"></div>
+              <div class="swiper-slide"><img src="images/dji_export_1654265358761-1024x576.jpg" alt="Slide 3"></div>
+              <div class="swiper-slide"><img src="images/dji_export_1654265362322-1024x576.jpg" alt="Slide 4"></div>
+              <div class="swiper-slide"><img src="images/dji_export_1658346298007-1024x576.jpg" alt="Slide 5"></div>
+              <div class="swiper-slide"><img src="images/dji_export_1659121641714-1024x576.jpg" alt="Slide 6"></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev">
+                <!-- <i class="fa-solid fa-chevron-left"></i> -->
+            </div>
+            <div class="swiper-button-next">
+                <!-- <i class="fa-solid fa-chevron-right"></i> -->
+            </div>
+          
+          </div>
+        
+
+        </section>
+
+    <!-- 
         * * Rodape! -------------------------
     -->
     <footer>
         <p>Copyright 2022 - Resolve</p>
     </footer>
+    <script src="js/swiper-slider.js"></script>
 </body>
 </html>
