@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
 * {
   padding: 0px;
   margin: 0px;
@@ -14,6 +14,12 @@ body{
     background: #fff;
 }
 
+::selection {
+    color: #fff;
+    background: #333;
+    text-shadow: none;
+}
+
 a:-webkit-any-link {
     cursor: pointer;
 }
@@ -21,9 +27,15 @@ a:-webkit-any-link {
 header{
     height: 75px;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1;
 }
 .navbar {
-  background: #fff;
+  background: none;
   width: 1200px;
   height: 75px;
   display: flex;
@@ -65,12 +77,23 @@ header{
   width: 100%;
 }
 
+.texto-banner{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #cafcfb;
+    font-weight: 500;
+    font-size: 60px;
+    background: #09131ab6;
+    padding: 5px;
+}
 .banner{
     width: 100%;
     height: 500px;
     max-height: 500px;
-    background: url("../images/banner00.png") no-repeat;
-    background-position: 0% 25%;
+    background: url("../images/IMAGEM\ INICIAL.jpg") no-repeat;
+    background-position: 0% 45%;
     background-size: cover;
 }
 
